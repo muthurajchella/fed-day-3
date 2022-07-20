@@ -64,6 +64,14 @@
 }
 
 
+
+
+
+
+
+
+
+
 .banner{
     width: auto;
     /* margin: 10px; */
@@ -136,3 +144,79 @@
 .food{
     padding-top: 165px;
 }
+
+
+.about{
+    width: 100%;
+    height: auto;
+    /* border: solid 2px red; */
+    margin-top: 80px;
+}
+.at1{
+    width: 100%;
+    height: 20%;
+    /* border: solid 2px yellow; */
+    text-align: center;
+    margin-top: 30px;
+}
+.aboutimage{
+    width: 100%;
+    height: 80%;
+    /* border: solid 2px yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+.ai1{
+    width: 665px;
+    height: 740px;
+    border: solid 2px yellow;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 70px;
+    /* padding: 200px; */
+    color: red;
+    margin-bottom: 20px;
+}
+.ai2{
+    width: 50%;
+    height: 80px;
+    /* border: solid 2px green; */
+}
+.ai2t{
+    width: 420px;
+    height: 460px;
+    /* border: solid 2px blue; */
+    margin-left: 30px;
+    font-size: 18px;
+    padding-bottom: 15px;
+    color: dimgray;
+    
+
+}
+.ai2t ul{
+    list-style: decimal;
+}
+.ai2i{
+    width: 420px;
+    height: 250px;
+    border: solid 2px yellow;
+    margin-left: 30px;
+    /* margin-top: 10px; */
+    color: red;
+    text-align: center;
+    font-size: 50px;
+
+}
+.learn{
+    font-family: cursive;
+    font-size: 20px;
+
+}
+.aboutback{
+    background-color: white;
+}
+
+
+
+
+
