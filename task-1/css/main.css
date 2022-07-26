@@ -62,6 +62,7 @@
     /* border: solid 2px red; */
     display: flex;
     background-color: azure;
+    justify-content: space-between;
 }
 .back1{
     width: 100%;
@@ -101,24 +102,30 @@
     /* margin-top: 20px; */
 }
 .image1{
-    width: 50%;
+    /* width: 40%; */
     /* height: 327px; */
-    /* border: solid 2px red; */   
-}
-.image2{
+    /* border: solid 2px red; */ 
+    background-image: url(/image/hero-img.png);
+    background-size: cover;
     width: 580px;
-    height: 450px;
+    height: 450px;  
+}
+/* .image2{
+   
     color: red;
     border: solid 2px yellow;
     margin-top: 50px;
     border-radius: 1000px;
     text-align: center;
     font-size: 30px;
-    /* padding-top: 50px; */
-}
-.food{
-    padding-top: 165px;
-}
+    padding-top: 50px;
+   
+} */
+    
+
+
+
+   
 
 
 
@@ -143,15 +150,17 @@
     justify-content: space-between;
 }
 .ai1{
-    width: 665px;
-    height: 740px;
+    /* width: 665px; */
+    /* height: 740px; */
     border: solid 2px yellow;
-    border-radius: 10px;
-    text-align: center;
-    font-size: 70px;
+    /* border-radius: 10px; */
+    /* text-align: center; */
+    /* font-size: 70px; */
     /* padding: 200px; */
-    color: red;
-    margin-bottom: 20px;
+    /* color: red; */
+    /* margin-bottom: 20px; */
+    background-image: url(/image/about.jpg);
+    background-size: cover;
 }
 .ai2{
     width: 50%;
