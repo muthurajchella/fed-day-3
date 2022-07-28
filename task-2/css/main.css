@@ -1,0 +1,25 @@
+.container{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: solid 2px black;
+
+}
+
+.quick-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.soical,ul,li{
+    display: flex;
+    /* padding: 10px; */
+    justify-content: space-between;  
+    padding-inline: 20px;
+}
+
+.soical ul a{
+    text-decoration: none;
+}
