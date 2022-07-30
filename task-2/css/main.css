@@ -379,6 +379,110 @@ display: flex;
 
 
 
+.value{
+    background-color: azure;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.value-flex{
+    display: flex;
+    justify-content: space-between;
+    background-color: azure;
+    padding: 10px;
+}
+
+.value-1{
+    width: 25%;
+    background-color: white;
+    /* border: solid 2px red; */
+    margin-right: 20px;
+
+}
+
+.value-1 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: rgb(11, 11, 248, .9);
+    text-align: center;
+}
+
+.value-1 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(20, 20, 20, 0.7);
+    /* padding-bottom: 20px; */
+
+}
+
+
+.value-2{
+    width: 25%;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.value-2 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: rgb(11, 11, 248, .9);
+    text-align: center;
+}
+
+.value-2 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(20, 20, 20, 0.7);
+}
+
+
+.value-3{
+    width: 25%;
+    background-color: white;
+    margin-right: 20px;
+}
+
+.value-3 h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: rgb(11, 11, 248, .9);
+    text-align: center;
+}
+
+.value-3 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(20, 20, 20, 0.7);
+}
+
+.value-4{
+    width: 25%;
+    background-color: white;
+}
+
+.value-4 h2{
+    
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    color: rgb(11, 11, 248, .9);
+    text-align: center;
+}
+
+.value-4 p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(20, 20, 20, 0.7);
+}
+
+
+
+
+
+
 
 
 
