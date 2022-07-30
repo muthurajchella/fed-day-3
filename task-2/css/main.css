@@ -112,6 +112,12 @@ display: flex;
     width: 100%;
     padding-top: 80px; 
 }
+/* 
+.banner-bcakcolor{
+    background-color: rgb(12, 12, 12, 0.2);
+    height: 100%;
+    margin-bottom: 20px;
+} */
 
 .header-text h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -477,6 +483,89 @@ display: flex;
     text-align: center;
     color: rgb(20, 20, 20, 0.7);
 }
+
+
+
+
+
+.services{
+    border: solid 2px red;
+    /* height: 200px; */
+}
+
+.serv-head{
+    height: 10%;
+    border: solid 2px yellow;
+    box-sizing: border-box;
+}
+
+.serv-list{
+    height: 90%;
+    border: solid 2px yellow;
+    box-sizing: border-box;
+}
+
+.serv-list-flex1{
+    height: 50%;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.serv-list-flex2{
+    height: 50%;
+    border: solid 2px black;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.serv-1{
+    width: 33.3%;
+    height: 100px;
+    border: solid 2px brown;
+    box-sizing: border-box;
+}
+
+
+.serv-2{
+    width: 33.3%;
+    border: solid 2px brown;
+    box-sizing: border-box;
+}
+
+
+.serv-3{
+    width: 33.3%;
+    border: solid 2px brown;
+    box-sizing: border-box;
+}
+
+
+.serv-4{
+    width: 33.3%;
+    height: 100px;
+    border: solid 2px brown;
+    box-sizing: border-box;
+}
+
+
+.serv-5{
+    width: 33.3%;
+    border: solid 2px brown;
+    box-sizing: border-box;
+}
+
+
+.serv-6{
+    width: 33.3%;
+    border: solid 2px brown;
+    box-sizing: border-box;
+}
+
+
+
 
 
 
