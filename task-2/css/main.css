@@ -1530,7 +1530,7 @@
 .faq-head h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px; 
-    color: #5c768d;
+    color: Contact Us;
     
 }
 
@@ -1676,9 +1676,167 @@
 
 
 
+.contact-back{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.contact-head{
+    width: 100%;
+    height: 10%;
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  #5c768d;
+    text-align: center;
+}
+
+.contact-con{
+    width: 100%;
+    height: 85%;
+    background-color: white;
+    margin-top: 20px;
+    /* margin-inline: 20px; */
+}
+
+.contact-connect{
+    width: 100%;
+    height:40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-add{
+    width: 48%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 2px rgb(59, 59, 59, 0.3); 
+    margin-bottom: 20px;
+}
+
+.conicon1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px dotted #9eccf4;
+    margin-left: 45%;
+    margin-top: 20px;
+  
+}
+
+.conicon1 i{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #428bca;
+}
+.contact-add h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+.contact-add p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
 
 
+.contact-mail{
+    width: 23%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 2px rgb(59, 59, 59, 0.3);  
+    margin-bottom: 20px;
+}
 
+.conicon2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px dotted #9eccf4;
+    margin-left: 40%;
+    margin-top: 20px;
+  
+}
+
+.conicon2 i{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #428bca;
+}
+.contact-mail h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+.contact-mail p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+
+.contact-phone{
+    width: 23%;
+    height: auto;
+    background-color: white;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px 2px rgb(59, 59, 59, 0.3);  
+    margin-bottom: 20px;
+}
+
+.conicon3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px dotted #9eccf4;
+    margin-left: 40%;
+    margin-top: 20px;
+  
+}
+
+.conicon3 i{
+    font-size: 30px;
+    margin-top: 10px;
+    color: #428bca;
+}
+.contact-phone h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: black;
+    margin-top: 10px;
+}
+
+.contact-phone p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+
+.form{
+    width: 100%;
+    height: 55%; 
+}
+.row1 {
+    width: 100%;
+    height: 25%;
+}
 
 
 
