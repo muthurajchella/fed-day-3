@@ -1277,6 +1277,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 5px;
+    transition: 0.5s;
 }
 
 .team-box2{
@@ -1294,6 +1295,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 5px;
+    transition: 0.5s;
 }
 
 .team-box3{
@@ -1311,6 +1313,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 5px;
+    transition: 0.5s;
 }
 
 .team-box4{
@@ -1327,6 +1330,7 @@
     background-size: cover;
     background-position: center;
     border-radius: 5px;
+    transition: 0.5s;
 }
 
 .box1-con{
@@ -1511,9 +1515,23 @@
     margin-top: 10px;
     padding-inline: 5px;
 }
+
 .box1-img:hover{
-    transform: 1.1;
+    transform: scale(1.1);
 }
+
+.box2-img:hover{
+    transform: scale(1.1);
+}
+
+.box3-img:hover{
+    transform: scale(1.1);
+}
+
+.box4-img:hover{
+    transform: scale(1.1);
+}
+
 
 
 
@@ -1840,12 +1858,93 @@
 .form{
     width: 100%;
     height: 55%; 
+    margin-top: 20px;
 }
 .row1 {
     width: 100%;
     height: 25%;
+    display: flex;
 }
 
+.row1 input{
+    width: 100%;
+    height: 20px;
+    margin-inline: 10px;
+    /* background-color: white; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px rgb(24, 24, 24, 0.3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+.row2 {
+    width: 97.4%;
+    height: 25%;
+}
+
+.row2 input{
+    width: 100%;
+    height: 20px;
+    /* margin-inline: 10px; */
+    /* background-color: white; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: solid 1px rgb(24, 24, 24, 0.3);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    padding-left: 10px;
+    margin-top: 15px;
+    margin-left: 8px;
+    margin-right: 20px;
+}
+
+.row3 {
+    width: 100%;
+    height: 40%;
+}
+
+.row3 textarea{
+    width: 97%;
+    height: 100px;
+    margin-left: 8px;
+    margin-top: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    padding: 10px;
+    border: solid 1px rgb(24, 24, 24, 0.3);
+}
+
+.contact-bot1{
+    width: auto;
+    height: auto;
+    margin-top: 15%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 10px;
+    margin-left: 40%;
+    border-radius: 1px;
+    border: none;
+    background-color: #428bca;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s;
+    margin-bottom: 30px;
+}
+
+.contact-bot1:hover{
+    background-color: #9fcdf5;
+}
+
+.form{
+    box-shadow: 0px 0px 5px 2px rgb(24, 24, 24, 0.2);
+}
 
 
 
@@ -2044,6 +2143,7 @@
 .ff form{
     display: flex;
     justify-content: space-between;
+    margin-top: 10px;
 }
 .in{
     width: 60%;
@@ -2087,6 +2187,63 @@
 
 .lab label:hover{
     background-color: #359bf5;
+
+}
+
+.legal-sec{
+    width: 100%;
+    height: auto;
+    background-color: #4c6275;
+    margin-top: -20px;
+}
+
+.legal-con{
+    text-align: center;
+}
+
+.copyrightlogo{
+    display: flex;
+    text-align: center;
+    padding-left: 40%;
+    padding-top: 20px;
+    padding-bottom: 10px;  
+}
+
+.copyrightlogo p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    color: rgb(230, 228, 228, 0.9);
+}
+
+.copyrightlogo h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    color: white;
+    font-weight: 200;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+
+.desing{
+    display: flex;
+    padding-left: 45%;
+}
+
+.desing p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    color: white;
+    font-weight: 1000;
+}
+
+.desing h4{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: small;
+    color: #a2cdf3;
+    font-weight: 1000;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    cursor: pointer;
 
 }
 
