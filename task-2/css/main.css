@@ -75,6 +75,7 @@
 
 .header{
     background-color: white;
+    z-index: 20;
 }
 
 .header-flex{
@@ -104,8 +105,17 @@
     cursor: pointer;
 }
 
-.header-nav ul li:hover{
+.header-nav ul li a:hover{
     color: skyblue;
+}
+
+.header-nav ul li a{
+    text-decoration: none;
+    color: rgb(15, 2, 2, 0.5); 
+}
+
+.header-nav ul li a i{
+    margin-left: 10px;
 }
 
 
@@ -223,12 +233,6 @@
     background-color: #1c5c93;
 }
 
-/* .about-text i{
-    font-size: 60;
-    color: cadetblue;
-    text-align: center;
-} */
-
 .about-text{
     width: 40%;
     height: auto;
@@ -290,13 +294,14 @@
     transition: 0.5s;
 }
 
- .finger-icon:hover{
-    background-color: rgb(6, 6, 248, 0.7); 
-} 
+.finger-print:hover .finger-icon{
+    background-color: rgb(6, 6, 248, 0.7);
+   
+}
 
-.finger-icon i:hover{
+.finger-print:hover .finger-icon i{
     color: azure;
-} 
+}
 
 .finger-text{
     width: 75%;
@@ -340,13 +345,14 @@
     transition: 0.5s;
 }
 
- .gift-icon:hover{
-    background-color: rgb(6, 6, 248, 0.7); 
-} 
+.gift:hover .gift-icon{
+    background-color: rgb(6, 6, 248, 0.7);
+   
+}
 
-.gift-icon i:hover{
+.gift:hover .gift-icon i{
     color: azure;
-} 
+}
 
 .gift-text{
     width: 75%;
@@ -1102,7 +1108,6 @@
     width: 100%;
     height: 33.33%;
     display: flex;
-    /* margin-bottom: 20px; */
     justify-content: space-between;
 }
 
@@ -1114,7 +1119,29 @@
     background-size: cover;
     background-position: center;
     margin-right: 20px;
+    position: relative;
 }
+/* .img1::after{
+    content: "";
+    width: 100%;
+    height:270px ;
+    background: rgba(0 0 0/.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.img1:hover .img1after{
+    opacity: 1;
+  
+    transition: .5s;
+} */
+
+/* .imgafter{
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
 
 .img2{
     width: 33.33%;
@@ -2064,11 +2091,12 @@
     color: white;
 }
 
-.links ul a{
+.links ul li a{
     text-decoration: none;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
     color: white;  
+    transition: 0.5s;
 }
 
 .links ul{
@@ -2102,6 +2130,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 17px;
     color: white;
+    transition: 0.5s;
 }
 
 .footserv ul li{
@@ -2191,6 +2220,13 @@
     outline: 0px;
 }
 
+.footserv ul li a:hover{
+    color: #0d6efd;
+}
+
+.links ul li a:hover{
+    color: #0d6efd;
+}
 
 
 
