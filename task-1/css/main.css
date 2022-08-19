@@ -4,8 +4,6 @@
     margin: 20px;
     margin-left: 100px;
     margin-right: 100px;
-    /* border: solid 2px red; */
-    /* box-sizing: border-box; */
 }
 
 .header-back{
@@ -41,20 +39,17 @@
     font-weight: 700;
     padding-top: 10px;
     padding-left: 20px;
-   
 }
 
 .head-logo h2{
     font-size: 41px;
     color: #ce1212;
     padding-left: 3px;
-   
 }
 
 .head-navi{
     width: 80%;
-    height: auto;
-    
+    height: auto;  
 }
 
 .head-navi ul{
@@ -72,7 +67,6 @@
     color: #7f7f90;
     padding-inline: 18px;
     font-weight: 700;
-   
 }
 
 .head-navi ul li a b{
@@ -111,6 +105,7 @@
 
 
 
+
 .banner-back{
     width: 100%;
     height: auto;
@@ -129,7 +124,6 @@
 .banner-text{
     width: 50%;
     height: auto;
-    /* padding-top: 100px; */
 }
 
 .banner-text h1{
@@ -179,7 +173,7 @@
 
 .banner-icon{
     display: flex;
-    margin-right: 260px;
+    margin-right: 250px;
     cursor: pointer;
     transition: 0.5s;
 }
@@ -229,9 +223,9 @@
     background-size: cover;
     height: 450px;
     width: 450px;
-    margin-left: 100px;
-    
+    margin-left: 100px; 
 }
+
 
 
 
@@ -244,8 +238,7 @@
 
 .about-main{
     width: 100%;
-    height: auto;
-    
+    height: auto;  
 }
 
 .about-head{
@@ -344,12 +337,10 @@
     font-size: 20px;
     color: rgb(26, 25, 25, 0.7);
     line-height: 20px;
-    /* text-align: center; */
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 30px;
 }
-
 
 .about-img2-text  ul li i{
     color: red;
@@ -363,6 +354,7 @@
     width: 400px;
     margin-left: 60px;
     margin-top: 30px;
+    position: relative;
 }
 
 .about-img2-img-circle{
@@ -372,12 +364,26 @@
     border-radius: 50px;
     text-align: center;
     margin-left: 160px;
+    position: absolute;
+    margin-top: 105px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 .about-img2-img-circle i{
     font-size: 25px;
     color: white;
-    margin-top: 26px;
+    margin-top: 28px;
+    padding-left: 4px;
+    transition: 0.5s;
+}
+
+.about-img2-img-circle:hover{
+    background-color: white;
+}
+
+.about-img2-img-circle:hover i{
+    color: #ce1212;
 }
 
 
@@ -387,6 +393,7 @@
     width: 100%;
     height: auto;
     background-color: #eee;
+    margin-top: 50px;
 }
 
 .achive-flex{
@@ -394,17 +401,15 @@
     height: auto;
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
 }
-
 
 .achive-box1{
     width: 25%;
     height: auto;
     background-color: #ce1212;
     padding: 20px;
- 
 }
 
 .achive-box1 h1{
@@ -412,8 +417,8 @@
     font-size: 35px;
     color: white;
     font-weight: 800;
-    line-height: 50px;
-
+    line-height: 40px;
+    padding-top: 20px;
 }
 
 .achive-box1 p{
@@ -421,7 +426,7 @@
     font-size: 20px;
     color: white;
     padding-top: 20px;
-    line-height: 21px;
+    line-height: 20px;
 }
 
 .achive-bt{
@@ -463,11 +468,12 @@
 }
 
 .achive-2{
-    width: 33.33%;
+    width: 30%;
     height: auto;
     background-color: white;
     text-align: center;
     position: relative;
+    transition: 0.5s;
 }
 
 .icon-c1{
@@ -476,17 +482,15 @@
     background-color:  rgb(253, 215, 215);
     border-radius: 35px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 90px;
     position: absolute;
-    margin-top: 40px;
-    
+    margin-top: 40px; 
 }
 
 .icon-c1 i{
-    font-size: 30px;
+    font-size: 10px;
     margin-top: 15px;
     color: rgba(230, 4, 4, 0.979);
-
 }
 
 .achive-2 h2{
@@ -508,11 +512,12 @@
 }
 
 .achive-3{
-    width: 33.33%;
+    width: 30%;
     height: auto;
     background-color: white;
+    text-align: center;
+    transition: 0.5s;
 }
-
 
 .icon-c2{
     width: 60px;
@@ -520,24 +525,22 @@
     background-color:  rgb(253, 215, 215);
     border-radius: 35px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 90px;
     position: absolute;
-    margin-top: 40px;
-    
+    margin-top: 40px; 
 }
 
 .icon-c2 i{
     font-size: 30px;
     margin-top: 15px;
     color: rgba(230, 4, 4, 0.979);
-
 }
 
 .achive-3 h2{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 23px;
     color: rgb(24, 24, 24, 0.9);
-    padding-top: 150px;
+    padding-top: 170px;
     font-weight: 100;
     line-height: 25px;
 }
@@ -546,17 +549,18 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     color: #6c757d;
-    padding-top: 23px;
+    padding-top: 24px;
     line-height: 25px;
     padding-bottom: 50px;
 }
 
 .achive-4{
-    width: 33.33%;
+    width: 30%;
     height: auto;
     background-color: white;
+    text-align: center;
+    transition: 0.5s;
 }
-
 
 .icon-c3{
     width: 60px;
@@ -564,17 +568,15 @@
     background-color:  rgb(253, 215, 215);
     border-radius: 35px;
     text-align: center;
-    margin-left: 100px;
+    margin-left: 90px;
     position: absolute;
-    margin-top: 40px;
-    
+    margin-top: 40px;  
 }
 
 .icon-c3 i{
     font-size: 30px;
     margin-top: 15px;
     color: rgba(230, 4, 4, 0.979);
-
 }
 
 .achive-4 h2{
@@ -593,6 +595,18 @@
     padding-top: 23px;
     line-height: 25px;
     padding-bottom: 50px;
+}
+
+.achive-2:hover{
+    transform: scale(1.1);
+}
+
+.achive-3:hover{
+    transform: scale(1.1);
+}
+
+.achive-4:hover{
+    transform: scale(1.1);
 }
 
 
