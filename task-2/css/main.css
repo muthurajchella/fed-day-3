@@ -126,6 +126,7 @@
     padding-top: 80px; 
     position: relative;
     z-index: 1;
+    position: relative;
 }
 
 .banner-bcakcolor:after{
@@ -135,11 +136,9 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(10, 25, 34, 0.6);
     z-index: -1;
 }
-
-
 
 .banner-text h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -157,10 +156,11 @@
     padding-left: 15px;
     padding-top: 40px;
     color: white;
+    line-height: 22px;
 }
 
 .banner-b1{
-    margin-top: 38px;
+    margin-top: 34px;
     margin-left: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -180,6 +180,68 @@
     background-color:  #355675;
 }
 
+.angle-flex{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    margin-top: 215px;
+}
+
+.angle-left{
+    font-size: 70px;
+    color: rgb(211, 207, 207, 0.5);
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.angle-right{
+    font-size: 70px;
+    color: rgb(211, 207, 207, 0.5);
+    margin-left: 1250px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.angle-left:hover{
+    color: white;
+}
+
+.angle-right:hover{
+    color: white;
+}
+
+.banner-hr-flex{
+    position: absolute;
+    top: 0;
+    margin-top: 280px;
+    margin-left: 620px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-hr1{
+    height: 3px;
+    width: 30px;
+    background-color: white;
+}
+
+.banner-hr2{
+    height: 3px;
+    width: 30px;
+    background-color: rgb(211, 208, 208, 0.7);
+    margin-left: 7px;
+}
+
+.banner-hr3{
+    height: 3px;
+    width: 30px;
+    background-color: rgb(211, 208, 208, 0.7);
+    margin-left: 7px;
+}
+
+
 
 
 
@@ -188,8 +250,6 @@
     background-color: white;
     width: 100%;
     margin-top: 70px;
-    /* border: solid 2px black; */
-
 }
 
 .about-flex{
@@ -221,8 +281,7 @@
     border: solid 2px #3e649e;
     margin-top: 230px;
     transition: 0.5s;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 .about-img i:hover{
@@ -232,14 +291,12 @@
 .about-text{
     width: 40%;
     height: auto;
-    /* border: solid 2px red; */
     margin-right: 30px;   
 }
 
 .about-text-head{
     height: 45%;
     text-align: center;
-    /* border: solid 2px yellow; */  
 }
 
 .about-text-head h2{
@@ -248,7 +305,6 @@
     font-weight: 1000;
     color: cadetblue;
     padding-top: 30px;
-    /* cursor: pointer; */
 }
 
 .about-text-head p{
@@ -373,7 +429,6 @@
 
 .achive{
     background-color: white;
-    /* border: solid 2px red; */
     height: auto;
     margin-top: 50px;
 }
@@ -576,7 +631,6 @@
 }
 
 .value-4 h2{
-    
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 40px;
     color: #1c5c93;
@@ -603,7 +657,6 @@
 .serv-head{
     width: 100%;
     height: 10%;
-    /* border: solid 2px yellow; */
     box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 35px;
@@ -616,7 +669,6 @@
     width: 100%;
     height: 80%;
     margin-top: 20px;
-    /* border: solid 2px yellow; */
     box-sizing: border-box;
     
 }
@@ -625,7 +677,6 @@
     height: 45%;
     width: 100%;
     margin-top: 50px;
-    /* border: solid 2px black; */
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -635,7 +686,6 @@
 .serv-1{
     width: 33.3%;
     height: auto;
-    /* border: solid 2px brown; */
     box-sizing: border-box;
     text-align: center;
     margin-left: 10px;
@@ -644,7 +694,6 @@
 .serv-icon1{
     width: 80px;
     height: 80px;
-    /* border: solid 1px rgb(20, 20, 20, 0.5); */
     border-radius: 40px;
     margin-left: 150px;
     margin-top: 10px;
@@ -679,7 +728,6 @@
 .serv-2{
     width: 33.3%;
     height: auto;
-    /* border: solid 2px brown; */
     box-sizing: border-box;
     text-align: center;
     margin-left: 5px;
@@ -724,7 +772,6 @@
 .serv-3{
     width: 33.3%;
     height: auto;
-    /* border: solid 2px brown; */
     box-sizing: border-box;
     text-align: center;
     margin-right: 10px;
@@ -768,7 +815,6 @@
     width: 100%;
     height: 45%;
     margin-top: 40px;
-    /* border: solid 2px black; */
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -777,7 +823,6 @@
 .serv-4{
     width: 33.3%;
     height: auto;
-    /* border: solid 2px brown; */
     box-sizing: border-box;
     text-align: center;
 }
@@ -820,7 +865,6 @@
 .serv-5{
     width: 33.3%;
     height: auto;
-    /* border: solid 2px brown; */
     box-sizing: border-box;
     text-align: center;
 }
@@ -864,7 +908,6 @@
 .serv-6{
     width: 33.3%;
     height: auto;
-    /* border: solid 2px brown; */
     box-sizing: border-box;
     text-align: center;
 }
@@ -990,7 +1033,6 @@
     width: 60px;
     height: 30px;
     background-color: #428bca;
-    /* border: solid 2px blue; */
     margin-right: 20px;
     padding-top: 10px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -1009,7 +1051,6 @@
     width: 60px;
     height: 30px;
     padding-top: 10px;
-    /* border: solid 2px black; */
     margin-right: 20px;
     background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -1030,7 +1071,6 @@
     width: 60px;
     height: 30px;
     padding-top: 10px;
-    /* border: solid 2px black; */
     margin-right: 20px;
     background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -1050,7 +1090,6 @@
     width: 60px;
     height: 30px;
     padding-top: 10px;
-    /* border: solid 2px black; */
     margin-right: 20px;
     background-color: white;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -1094,7 +1133,6 @@
     width: 100%;
     height: 80%;
     margin-top: 25px;
-    /* border: solid 2px red; */
 }
 
 .port-img1-flex{
@@ -1107,7 +1145,6 @@
 .img1{
     width: 33.33%;
     height: 270px;
-    /* border: solid 2px black; */
     background-image: url(../image/portfolio-1.jpg);
     background-size: cover;
     background-position: center;
@@ -1123,7 +1160,6 @@
     background-position: center;
     margin-right: 10px;
     margin-left: 10px;
-    /* border: solid 2px black; */
 }
 
 .img3{
@@ -1133,7 +1169,6 @@
     background-size: cover;
     background-position: center;
     margin-left: 20px;
-    /* border: solid 2px black; */
 }
 
 .port-img2-flex{
@@ -1141,7 +1176,6 @@
     height: 33.33%;
     display: flex;
     margin-top: 30px;
-    /* margin-bottom: 10px; */
     justify-content: space-between;
 }
 
@@ -1152,7 +1186,6 @@
     background-size: cover;
     background-position: center;
     margin-right: 20px;
-    /* border: solid 2px black; */
 }
 
 .img5{
@@ -1163,7 +1196,6 @@
     background-position: center;
     margin-right: 10px;
     margin-left: 10px;
-    /* border: solid 2px black; */
 }
 
 .img6{
@@ -1173,7 +1205,6 @@
     background-size: cover;
     background-position: center;
     margin-left: 20px;
-    /* border: solid 2px black; */
 }
 
 .port-img3-flex{
@@ -1191,7 +1222,6 @@
     background-size: cover;
     background-position: center;
     margin-right: 20px;
-    /* border: solid 2px black; */
 }
 
 .img8{
@@ -1202,7 +1232,6 @@
     background-position: center;
     margin-right: 10px;
     margin-left: 10px;
-    /* border: solid 2px black; */
 }
 
 .img9{
@@ -1212,7 +1241,6 @@
     background-size: cover;
     background-position: center;
     margin-left: 20px;
-    /* border: solid 2px black; */
 }
 
 
